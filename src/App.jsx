@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Chat from "./components/chat";
 
 export default function App() {
@@ -5,5 +6,6 @@ export default function App() {
     <div>
       <Chat />
     </div>
-  )
+  );
 }
+
